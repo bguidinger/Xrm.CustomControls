@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="BGuidinger" constructor="SamplePopupControl" version="1.0.0" display-name-key="SamplePopupControl_DisplayName_Key" description-key="SamplePopupControl_Description_Key" control-type="standard">
+    <property name="value" display-name-key="Value_DisplayName_Key" description-key="Value_Description_Key" of-type="SingleLine.Text" usage="bound" required="true" /> 
+    <resources>
+      <code path="index.ts" order="1"/>
+      <css path="css/SamplePopupControl.css" order="1" />
+      <!-- <resx path="strings/LinearControl.1033.resx" version="1.0.0" /> -->
+    </resources>
+  </control>
+</manifest>

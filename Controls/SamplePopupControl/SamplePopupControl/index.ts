@@ -24,7 +24,8 @@ export class SamplePopupControl implements ComponentFramework.StandardControl<II
 			type: 1,
 			name: this._popupName,
 			closeOnOutsideClick: true,
-            content: popupContent
+            content: popupContent,
+            popupStyle: {}
         });
 	}
 
